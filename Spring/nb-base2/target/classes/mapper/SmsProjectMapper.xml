@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nb.nbbase2.mapper.SmsProjectMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nb.nbbase2.entity.SmsProject">
+        <id column="id" property="id" />
+        <result column="project_name" property="projectName" />
+        <result column="project_code" property="projectCode" />
+        <result column="drug_name" property="drugName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, project_name, project_code, drug_name
+    </sql>
+
+</mapper>

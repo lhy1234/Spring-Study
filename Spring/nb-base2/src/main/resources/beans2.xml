@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <bean id="car2" class="com.nb.nbbase2.beans.Car" >
+        <property name="brand" value="东风"></property>
+        <property name="color" value="白色"></property>
+        <property name="maxSpeed" value="200"></property>
+    </bean>
+
+
+
+
+</beans>
